@@ -83,6 +83,7 @@ int main(int argc, char *argv[]) {
         for (int i =0; i<4;i++){
             operations[i]=(float*)malloc(sizeof(float));
         }
+        //???????
         //void(*operations[4])(void);
         operations[0]=sum;
         operations[1]=sub;
